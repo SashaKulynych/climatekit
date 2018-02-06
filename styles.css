@@ -218,3 +218,23 @@
     font-size: 24px;
     font-family: Arial;
 }
+.aboutButton{
+    padding: 10px 80px;
+    background-color: #fddb1d;
+    font-size: 30px;
+    font-family: Arial;
+    margin-bottom: 50px;
+}
+.news{
+    padding:50px 0px 50px 0px;
+    font-size: 40px;
+    font-family: Arial;
+}
+.newsPicture{
+    height:150px;
+}
+.pictureTitle{
+    font-size: 35px;
+    font-family: Arial;
+    color: white;
+}
