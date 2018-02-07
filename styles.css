@@ -219,6 +219,7 @@
     font-family: Arial;
 }
 .aboutButton{
+    margin-top: 15px;
     padding: 10px 80px;
     background-color: #fddb1d;
     font-size: 30px;
@@ -250,6 +251,7 @@
     color: #808080;
 }
 .allNews{
+    margin-bottom:25px;
     padding:2px 120px;
     background-color: #fddb1d;
     font-size: 25px;
@@ -269,4 +271,25 @@
     padding:50px 0px 50px 0px;
     font-size: 40px;
     font-family: Arial;
+}
+.whatYouGetText{
+    text-align: center;
+    color:#3b3b3b;
+    font-size: 30px;
+    margin-bottom:50px;
+    max-width:850px;
+}
+.whatYouGetBlock{
+    width:250px;
+    text-align: center;
+    border-radius: 150px;
+    background-color: #fddb1d;
+    padding:10px;
+    margin:0px 10px 15px 0px;
+}
+.whatYouGetBlockImage{
+    width: 100%;
+}
+.whatYouGetBlockText{
+    margin:25px 0px 55px 0px;
 }
