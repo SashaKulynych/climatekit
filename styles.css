@@ -238,3 +238,35 @@
     font-family: Arial;
     color: white;
 }
+.newsTitle{
+    font-size: 20px;
+    font-family: Arial;
+    color: #3b3b3b;
+}
+.newsDescription{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    color: #808080;
+}
+.allNews{
+    padding:2px 120px;
+    background-color: #fddb1d;
+    font-size: 25px;
+    font-family: Arial;
+    color: #282828;
+}
+.advantageSection{
+    background-color: #f1f1f1;
+}
+.advantage{
+    padding:50px 0px 50px 25px;
+    color:#2d2d2d;
+    font-size: 30px;
+    font-family: Arial;
+}
+.sectionTitles{
+    padding:50px 0px 50px 0px;
+    font-size: 40px;
+    font-family: Arial;
+}
