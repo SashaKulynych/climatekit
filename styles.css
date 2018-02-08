@@ -7,6 +7,7 @@
     padding: 0px 55px;
 }
 .circle{
+    cursor: pointer;
     border-radius: 50px;
     background-color: white;
     height: 40px;
@@ -23,6 +24,9 @@
 }
 .email{
     margin:0px 10px;
+}
+.enter{
+    cursor: pointer;
 }
 /*dropdown menu left part*/
 .menu-left-part{
@@ -43,7 +47,7 @@
     color:#323232;
     text-decoration:none;
     font-size:23px;
-    padding: 40px 100px 40px 15px;
+    padding: 40px 50px 40px 15px;
     font-family:Arial
 }
 
@@ -112,7 +116,7 @@
     color:#323232;
     text-decoration:none;
     font-size:23px;
-    padding: 40px 15px 40px 100px;
+    padding: 40px 15px 40px 50px;
     font-family:Arial
 }
 
@@ -174,24 +178,44 @@
     width: 520px;
     font-size: 22px;
     text-align: justify;
+    cursor: default;
 }
 .logo{
+    position: relative;
+    height:114px;
+}
+.logoTextStyle{
+    color: #fe9228;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: default;
+}
+.logoTextRight{
     position: absolute;
-    left: -100px;
-    right: 0;
-    top:75px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    z-index: 1;
+    bottom: 0px;
+    margin-left: 140px;
+}
+.logoTextLeft{
+    position: absolute;
+    bottom: 0px;
+    margin-left: -125px;
 }
 .logoImage{
+    position: absolute;
+    z-index: 1;
     width: 175px;
+    left: 0px;
+    right: 0px;
+    top:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .achievement{
     padding:50px 0px 50px 0px;
     font-size: 40px;
     font-family: Arial;
+    cursor: default;
 }
 .achievementBlock{
     width: 200px;
@@ -199,6 +223,7 @@
     text-align: center;
 }
 .achievementBlockTitle{
+    cursor: default;
 }
 .achievementBlockImage{
     height: 200px;
@@ -208,23 +233,30 @@
     background-color: #f1f1f1;
 }
 .about{
+    cursor: default;
     padding:10px 0px 10px 0px;
     font-size: 40px;
     font-family: Arial;
 }
 .aboutUsText{
+    cursor: default;
     padding:10px 0px 10px 0px;
     text-align: center;
     font-size: 24px;
     font-family: Arial;
 }
 .aboutButton{
+    cursor: pointer;
     margin-top: 15px;
     padding: 10px 80px;
     background-color: #fddb1d;
     font-size: 30px;
     font-family: Arial;
     margin-bottom: 50px;
+}
+.aboutButton:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    transition: box-shadow 0.5s ease-in-out;
 }
 .news{
     padding:50px 0px 50px 0px;
